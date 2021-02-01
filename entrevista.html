@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://static.landbot.io/landbot-widget/landbot-widget-3.0.0.js"></script>
+    <title>Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Link de normalize-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Fuente obtenida desde google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <!--Fuente obtenida desde google fonts-->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+   
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Cristhian R. <span>Freelancer</span></h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="home.html">Inicio</a>
+            <a href="sobremi.html">Sobre mi / CV</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="entrevista.html">Entrevista</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Diseño y Desarrollo Web | Programación en Java</h2>
+            <div class="ubicacion">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="44"
+                    height="44" viewBox="0 0 24 24" stroke-width="2" stroke="#ff2825" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <circle cx="12" cy="11" r="3" />
+                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+                </svg>
+                <p>Trujillo, La Libertad - Perú</p>
+            </div>
+            <a class="boton" href="contacto.html">Contactar</a>
+        </div>
+
+    </section>
+
+    <main class="contenedor sombra"><!--Clase Contenedor y clase sombra-->
+        <h2> <a href="https://chats.landbot.io/v3/H-813592-YLHOQEXB6Y1UD30I/index.html" target="_black">Clic para una entrevista</a></h2>
+        <div class="servicios">
+            <section class="servicio">
+
+                
+
+            </section>
+            <script SameSite="None; Secure" src="https://static.landbot.io/landbot-3/landbot-3.0.0.js"></script>
+            <div id="myLandbot" style="width: 100%; height: 600px"></div>
+            <script>
+                var myLandbot = new Landbot.Container({
+                    container: '#myLandbot',
+                    configUrl: 'https://chats.landbot.io/v3/H-813592-YLHOQEXB6Y1UD30I/index.html',
+                });
+            </script>
+
+        </div><!--Cierre del Div Class "Servicios"-->
+</main>
+    <footer class="footer">
+        <p>Todos los derechos reservados. 2021 Cristhian Rodriguez P.</p>
+    </footer>
+</body>
+
+</html>
