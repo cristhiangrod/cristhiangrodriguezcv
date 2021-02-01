@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer</title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <!--Link de normalize-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!--Fuente obtenida desde google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@400;700&display=swap" rel="stylesheet">
+    <!--Fuente obtenida desde google fonts-->
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Cristhian R. <span>Freelancer</span></h1>
+    </header>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="home.html">Inicio</a>
+            <a href="sobremi.html">Sobre mi / CV</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>Encuéntrame en: </h2>
+            <div class="ubicacion">
+                <a href="https://www.fb.com/cristhiangrod" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-facebook" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                  </svg></a>
+                  <a href="https://www.instagram.com/cristhiangrod" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#7f5345" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="4" />
+                        <circle cx="12" cy="12" r="3" />
+                        <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
+                      </svg>
+                  </a>
+                  <a href="https://www.linkedin.com/in/cristhiangrod/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linkedin" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <rect x="4" y="4" width="16" height="16" rx="2" />
+                        <line x1="8" y1="11" x2="8" y2="16" />
+                        <line x1="8" y1="8" x2="8" y2="8.01" />
+                        <line x1="12" y1="16" x2="12" y2="11" />
+                        <path d="M16 16v-3a2 2 0 0 0 -4 0" />
+                      </svg>
+                  </a>
+            </div><!--Cierrer clase ubacacion-->
+        </div><!--Cierre clase Contenido-hero-->
+
+    </section>
+
+    <main class="contenedor sombra"><!--Clase Contenedor y clase sombra-->
+        
+    <section>
+        <h2>Contacto</h2>
+        <form class="formulario">
+            <fieldset>
+                <legend>Contáctame llenando todos los campos: </legend>
+                <div class="contenedor-campos">
+                <div class="campo"><label>Nombre</label>
+                    <input class="input-text" type="text" placeholder="Tu nombre">
+                </div>
+                <div class="campo"><label>Teléfono</label>
+                    <input class="input-text" type="tel" placeholder="Tu teléfono">
+                </div>
+                <div class="campo"><label>Correo</label>
+                    <input class="input-text" type="email" placeholder="Tu e-mail">
+                </div>
+                <div class="campo"><label>Mensaje</label>
+                    <textarea class="input-text"></textarea>
+                </div>
+                </div><!--cierre de clase Contenedor--->
+                <div class="alinear-derecha"><input class="boton w-sm-100" type="submit" value="Enviar"></div>
+            
+            </fieldset>
+        </form>
+    </section>
+</main>
+    <footer class="footer">
+        <p>Todos los derechos reservados. 2021 Cristhian Rodriguez P.</p>
+    </footer>
+</body>
+
+</html>
